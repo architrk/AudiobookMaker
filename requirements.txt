@@ -1,0 +1,22 @@
+ebooklib==0.18
+beautifulsoup4==4.12.3
+lxml
+tqdm
+langchain
+langchain_community
+# langchain_experimental # Not strictly needed for core functionality now
+torch>=2.1
+# torchvision # Likely not needed for TTS
+# torchaudio # TTS library usually includes necessary audio components
+pysoundfile # For saving/loading audio
+transformers==4.33.0 # Downgraded further for TTS compatibility
+protobuf<4.0.0 # Often required by TTS
+TTS # Add Coqui TTS package
+# pip install git+https://github.com/NariLabs/Dia.git # Keep Dia commented out for now
+# accelerate # Might be needed by transformers/TTS
+# sentencepiece # Might be needed by transformers/TTS
+ipywidgets
+pydub==0.25.1
+ffmpeg-python==0.2.0
+# git+https://github.com/nari-labs/dia.git # Commented out - No longer needed
+soundfile
